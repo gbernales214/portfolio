@@ -59,7 +59,7 @@ body ul li a:hover {
 }
 
 body main {
-  margin: 0 3rem;
+  margin: 0 4rem;
   color: white;
 }
 
@@ -67,7 +67,7 @@ body main h3 {
   border-bottom: 1px solid white;
 }
 
-body main div div#project1 {
+body main div #row1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,6 +82,37 @@ body main div div#project1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+body main div #row1 #projectRow1 {
+  color: blue;
+  margin: 1rem;
+  width: 300px;
+  border: 2px solid #701212;
+  border-radius: 7px;
+  background-color: gray;
+}
+
+body main div #row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main div #row2 #projectRow2 {
+  color: blue;
+  margin: 1rem;
   width: 300px;
   border: 2px solid #701212;
   border-radius: 7px;

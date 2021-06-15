@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 body {
@@ -20,7 +20,6 @@ body {
         text-align: center;
         display: flex;
         flex-wrap: wrap;
-        
 
         h1 {
             width: 100%;
@@ -41,10 +40,10 @@ body {
 
         li a {
             text-decoration: none;
-            color: purple;
+            color: #8713BF;
             line-height: 1.5;
             font-weight: bolder;
-            &:hover{
+            &:hover {
                 text-decoration: underline;
                 font-weight: bold;
             }
@@ -59,46 +58,35 @@ body {
             border-bottom: 1px solid white;
         }
 
-        div #row1{
+        div #row1 {
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
-            
             align-content: flex-start;
             justify-content: space-between;
 
-
-        & #projectRow1 {
-            color: blue;
-            margin: 1rem;
-            width: 300px;
-            border: 2px solid rgb(112, 18, 18);
-            border-radius: 7px;
-            background-color: gray;
-            
+            & #projectRow1 {
+                margin: 1rem;
+                width: 300px;
+                border: 2px solid rgb(112, 18, 18);
+                border-radius: 7px;
+                background-color: gray;
+            }
         }
-        
-    }
-    div #row2{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        
-        align-content: flex-start;
-        justify-content: space-between;
+        div #row2 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-content: flex-start;
+            justify-content: space-between;
 
-
-    & #projectRow2 {
-        color: blue;
-        margin: 1rem;
-        width: 300px;
-        border: 2px solid rgb(112, 18, 18);
-        border-radius: 7px;
-        background-color: gray;
-        
-    }
-    
-}
+            & #projectRow2 {
+                margin: 1rem;
+                width: 300px;
+                border: 2px solid rgb(112, 18, 18);
+                border-radius: 7px;
+                background-color: gray;
+            }
+        }
     }
 }
-

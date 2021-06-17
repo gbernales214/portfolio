@@ -32,15 +32,15 @@ body {
         }
     }
 
-    ul {
+    .navList {
         list-style-type: none;
-        width: 100px;
+        width: 60px;
         height: 110px;
         position: fixed;
         top: 0;
         padding: 0.5rem;
 
-        li a {
+        & a {
             text-decoration: none;
             color: #8713BF;
             line-height: 1.5;
@@ -70,9 +70,10 @@ body {
             & #projectRow1 {
                 margin: 1rem;
                 width: 300px;
-                border: 2px solid rgb(112, 18, 18);
+                border: 2px solid white;
                 border-radius: 7px;
-                background-color: gray;
+                background-color: #761fa1;
+                text-align: center;
             }
         }
         div #row2 {
@@ -85,9 +86,10 @@ body {
             & #projectRow2 {
                 margin: 1rem;
                 width: 300px;
-                border: 2px solid rgb(112, 18, 18);
+                border: 2px solid white;
                 border-radius: 7px;
-                background-color: gray;
+                background-color: #761fa1;
+                text-align: center;
             }
         }
     }
